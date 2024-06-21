@@ -47,10 +47,43 @@ p, h1, h2, h3, h4, h5, h6 {
 
 .recipe-body {
   background-color: var(--neutral-eggshell);
-  max-width: 1440px;
+  width: min(90% 90rem);
   margin: 0 auto; 
   font-size: 16px; 
   font-family: var(--font-family-young-serif), var(--font-family-outfit);  
+  padding: 7.688rem 22rem 7.75rem 22rem;
+}
+
+.container {
+  max-width: 46rem;
+  margin-inline: auto;
+  padding: 2.5rem;
+  border-radius: 1rem;
+  background-color: var(--neutral-white);
+}
+
+.recipe-img {
+  margin-bottom: 2.5rem;
+}
+
+.recipe-title {
+  text-align: left;
+  margin-bottom: 1.5rem;
+}
+
+.recipe-description {
+  font-size: 1rem;
+  text-align: left;
+  margin-bottom: 2rem;
+  font-family: var(--font-family-young-serif);
+  font-weight: var(--font-weight-regular);
+  color: var(--neutral-wenge-brown);
+}
+
+.recipe-details-title {
+  text-align: left;
+  color: var(--primary-dark-raspberry);
+  font-family: var(--font-family-young-serif);
 }
 
 
