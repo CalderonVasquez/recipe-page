@@ -75,16 +75,56 @@ p, h1, h2, h3, h4, h5, h6 {
   font-size: 1rem;
   text-align: left;
   margin-bottom: 2rem;
-  font-family: var(--font-family-young-serif);
+  font-family: var(--font-family-outfit);
   font-weight: var(--font-weight-regular);
   color: var(--neutral-wenge-brown);
+}
+
+.recipe-prep-container {
+  background-color: var(--neutral-rose-white);
+  padding: 1.75rem;
+  margin-bottom: 2rem;
 }
 
 .recipe-details-title {
   text-align: left;
   color: var(--primary-dark-raspberry);
-  font-family: var(--font-family-young-serif);
+  font-family: var(--font-family-outfit);
+  margin-bottom: 1rem;
 }
+li::marker {
+  color: var(--primary-dark-raspberry);
+}
+.bold-text {
+  font-weight: var(--font-weight-bold);
+  color: var(--neutral-wenge-brown);
+  padding-left: 1rem;
+
+}
+
+li {
+  color: var(--neutral-wenge-brown);
+  font-weight: var(--font-weight-regular);
+  font-family: var(--font-family-outfit);
+  font-size: 1rem;
+}
+.recipe-ingredients-title {
+  color: var(--primary-nutmeg);
+  margin-bottom: 1.5rem;
+}
+.recipe-ingredients-list{
+  margin-left: 0;
+  padding-left: 1rem;
+}
+.recipe-ingredient {
+  padding-left: 1rem;
+}
+.colored-line {
+  margin: 2rem 0 2rem 0;
+  color: var(--neutral-light-grey);
+}
+
+
 
 
 
