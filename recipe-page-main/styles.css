@@ -56,14 +56,18 @@ p, h1, h2, h3, h4, h5, h6 {
 
 .container {
   max-width: 46rem;
-  margin-inline: auto;
+  display: inline-block;
+  margin: 0 auto;
+  transition: width .1s;
   padding: 2.5rem;
   border-radius: 1rem;
   background-color: var(--neutral-white);
 }
 
 .recipe-img {
+  width: 100%;
   height: auto;
+  object-fit: cover;
   margin-bottom: 2.5rem;
 }
 
@@ -181,7 +185,28 @@ li {
   color: var(--neutral-light-grey);
   height: 0;
 }
+/*  ******************* media queries *****************  */
+/* @media (max-width: 768px) {
+  .container {
+    width: 100%; 
+  }
+} */
 
+@media (max-width: 375px){
+  .recipe-body{
+    padding: 0;
+    background-color: var(--neutral-white);
+
+  }
+  .container {
+    width: 23.438rem;
+  }
+  .recipe-img {
+    width: 100%;
+    height: auto;
+    object-fit: stretch;
+  }
+}
 
 
 
